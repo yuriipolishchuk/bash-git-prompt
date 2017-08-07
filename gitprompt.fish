@@ -53,7 +53,7 @@ function fish_prompt
     # set PROMPT_START "\n$LAST_STATUS $BGreen$PathShort$ResetColor"
     # set PROMPT_END " \n$Yellow$Time$BGreen ➤ $ResetColor"
     set PROMPT_START "\n$LAST_STATUS $Yellow$Time\n$BGreen$PathShort$ResetColor\n\r"
-    set PROMPT_END " ➤ $ResetColor"
+    set PROMPT_END "➤ $ResetColor"
 
     set -e __CURRENT_GIT_STATUS
     set gitstatus "$__GIT_PROMPT_DIR/gitstatus.py"
